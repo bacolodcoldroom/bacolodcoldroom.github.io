@@ -364,6 +364,8 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: scale(1.2);
 }
 
+
+
 .gtco-cover {
   height: 900px;
   background-size: cover;
@@ -2105,7 +2107,17 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
-
+.xoverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
 #div_nav{ height:100px; }
 #jeheader img{ height:100px; }
 #hd_1{ font-size:35px;height:50px;margin:0px;padding:10px 0 0 0;text-align:center;background:none; }
